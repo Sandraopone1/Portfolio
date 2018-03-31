@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background-color: #5c4851;
+    width: 921px;
+    margin: 0px auto;
+    height: 1006px;
+    /* overflow: hidden;  */
+}
+
+#header{
+    background-color: #f8f8f8;
+    width: 921px;
+    height: 52px;
+    color: #000000;   
+    padding-top: 5px;
+}
+
+.left{
+    float: left;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.right{
+    float: right;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#AboutMe{
+    background-color: #fdfcfd;
+    margin-top: 22px;
+    color: #626263;
+    
+}
+#AboutMe p, a{
+    padding: 7px;
+}
+#AboutMe a{
+    color: #201f1f;
+}
+
+#About img{
+    height: 249px;
+    width:378px;
+    float: left;
+    border: 10px solid #c0c0c0;
+    margin-top: 22px;
+    margin-left:22px;
+    margin-right: 11px;
+    margin-bottom: 22px;
+    
+}
+#About div{
+    height: 269px;
+    width: 458px;
+    float: right;
+    margin-right: 22px;
+    
+}
+
+/* for indormation div*/
+.icons img{
+    width: 36px;
+    height: 37px;
+    margin: 2px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+.imageIcon{
+    height:150px;
+    width: 276px;
+}
+
+#information{
+    display: flex;
+    margin-right: 50px;
+
+}
+
+.info{
+    width: 276px;
+    height: 543px;
+    background-color: #e8dfe7;
+    position: relative;
+    right: 420px;
+    top: 310px;
+    margin: 12px;
+   /* top: 200px;
+    margin-right: 50px; 
+*/
+}
+
+.info p{
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+h4{
+    color: white;
+    padding: 10px;
+    background-color:#a3a2a9;
+    margin-top: 5px;
+}
+h3{
+    color: white;
+    background-color:#a3a2a9;
+    padding-left: 10px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+input{
+    margin-top: 20px;
+    background-color: #407d61;
+    color: white;
+    height: 27px;
+    border-radius: 8px;
+    position: relative;
+    left : 90px;
+    bottom: 17px;
+    font-size: 12px;
+    padding: 4px;
+}
+
+#footer{
+    display: flex;
+    position: relative;
+    top: 330px;
+    background-color: #f8f8f8;
+    width: 921px;
+    height: 52px;
+    display: block;
+    color: #5b5d5e;
+   
+}
+#footer img{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+   
+}
+#footer p{
+    padding-left: 360px;
+    
+}
+#footer a{
+    position: relative;
+    bottom: 8px;
+    color: #5b5d5e;
+}  
+
+#footerLast{
+    padding-left: 280px;
+    margin-top: 10px;
+    
+    }
+ 
